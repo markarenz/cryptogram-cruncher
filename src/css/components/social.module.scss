@@ -1,0 +1,22 @@
+@import '../partials/config';
+
+.root {
+  color: white;
+  svg{
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    transition: 0.2s ease-in-out color;
+  }
+  a {
+    display: block;
+    transform: scale(1.0);
+    transition: 0.2s ease-in-out transform;
+    &:hover{
+      transform: scale(1.2);
+      svg{
+        color: $color-secondary;
+      }
+    }
+  }
+}

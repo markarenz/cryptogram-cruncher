@@ -1,0 +1,30 @@
+.MuiTextField-root {
+  background-color: transparent;
+  width:100%;
+  .MuiOutlinedInput-notchedOutline{
+    border-color: $color-primary-dark-transparent-20;
+  }
+  .MuiInputBase-root{
+    border-color: red;
+    transition: 0.2s ease-in-out box-shadow, 0.2s ease-in-out background-color;
+    &.Mui-focused{
+      box-shadow: inset 0 0 10px 1px rgba(0,0,0,0.2),
+      0 2px 8px 2px rgba(0,0,0,0.2);
+      background-color: white;
+      .MuiOutlinedInput-notchedOutline{
+        border-color: $color-primary;
+      }
+    }
+  }
+  &.overDark{
+    background-color: transparent;
+    .MuiInputBase-root {
+      background-color: $color-near-white;
+    }
+  }
+  .MuiInputBase-input{
+    font-size: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,12 @@
+@import '../partials/config';
+
+.root {
+  background-color: $color-almost-black!important;
+  border-bottom: 4px solid $color-primary;
+  box-shadow: 0 4px 20px 1px rgba(0, 0, 0, 0.2);
+  h1{
+    flex-grow: 1;
+    letter-spacing: 2px;
+    margin:1rem 0!important;
+  }
+}

@@ -1,0 +1,23 @@
+@import '../partials/config';
+
+.root{
+
+}
+
+.keyPair{
+  font-size: 1rem;
+  font-weight: $weight-bold;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.2s ease-out transform;
+  &:hover{
+    transform: scale(1.4);
+  }
+}
+
+.inactive{
+  color: $color-grey;
+}
+.active{
+  color: white;
+}

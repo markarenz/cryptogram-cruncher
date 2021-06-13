@@ -1,0 +1,36 @@
+// FONTS
+$font-headline: 'Alfa Slab One', cursive;
+$font-body: 'Montserrat', sans-serif;
+$font-mono: 'Fira Mono', monospace;
+
+// COLORS
+$color-primary: #2160e0;
+$color-primary-light: #6192f8;
+$color-primary-dark: #0f3faa;
+$color-secondary: #e87213;
+$color-secondary-light: #ff9a4a;
+$color-near-black: #333;
+$color-nearer-black: #222;
+$color-almost-black: #111;
+$color-near-white: #eee;
+$color-grey-light: #ccc;
+$color-grey: #888;
+$color-white-transparent-20: rgba(255, 255, 255, 0.2);
+$color-white-transparent-50: rgba(255, 255, 255, 0.5);
+$color-black-transparent-20: rgba(0, 0, 0, 0.2);
+$color-primary-dark-transparent-20: rgba(15, 63, 170, 0.5);
+$color-primary-light-transparent-20: rgba(76, 128, 239, 0.2);
+$color-primary-light-transparent-50: rgba(76, 128, 239, 0.5);
+
+// FONT WEIGHTS
+$weight-bold: 700;
+$weight-regular: 400;
+
+// BREAKS
+$breaks-sm: 512px;
+$breaks-md: 846px;
+$breaks-lg: 1024px;
+
+// MISC
+$border-radius-normal: 4px;
+$line-height-normal: 1.4;

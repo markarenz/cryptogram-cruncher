@@ -1,0 +1,28 @@
+@import '../partials/config';
+
+.root {
+  background-color: $color-almost-black;
+  color: white;
+  border-top: 4px solid $color-secondary;
+  box-shadow: 0 -4px 20px 1px rgba(0, 0, 0, 0.2);
+}
+.footerMain {
+  padding: 2rem 0;
+  h3{
+    text-align:center;
+    padding-bottom:.5rem;
+    border-bottom: 4px solid $color-primary-light;
+    margin:0 0 1rem 0;
+  }
+}
+.copyright {
+  text-align:center;
+  padding: 1rem 0;
+  background-color: black;
+  color: $color-near-white;
+  font-size: .8rem;
+  a{
+    color: white;
+    text-decoration: underline;
+  }
+}

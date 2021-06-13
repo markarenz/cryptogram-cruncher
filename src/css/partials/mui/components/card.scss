@@ -1,0 +1,9 @@
+.MuiCardHeader-root{
+  background-color: $color-primary;
+  border-bottom: 4px solid $color-primary-light;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+  .MuiCardHeader-title{
+    color: $color-near-white;
+    font-family: $font-headline;
+  }
+}

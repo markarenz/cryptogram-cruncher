@@ -1,0 +1,12 @@
+@import '../partials/config';
+
+.textField {
+  textarea {
+    font-size: 1.5rem!important;
+    line-height: 2rem;
+    min-height: 300px;
+    letter-spacing:.5rem;
+    word-spacing: 1rem;
+    font-family: $font-mono;
+  }
+}
